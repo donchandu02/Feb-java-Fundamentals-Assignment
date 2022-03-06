@@ -1,0 +1,17 @@
+package FebWeek1;
+import java.util.*;
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the value in degree Fehrenheit ");
+		float fer = sc.nextFloat();
+		int temp = 0;
+		double cel = (fer - 32)/1.8;
+		System.out.println("the value in cecius is "+cel);
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package FebWeek1;
+
+public class assignment4 {
+
+	public static void main(String[] args) {
+		// Assignment is about to check outpur og given code
+		int a= 10;
+		if(++a==11 || ++a==12)
+			++a;
+		System.out.println(a);
+		//output is 12
+
+	}
+
+}

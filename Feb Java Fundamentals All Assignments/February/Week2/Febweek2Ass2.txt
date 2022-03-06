@@ -1,0 +1,16 @@
+package FebWeek2;
+
+public class Assi2 {
+
+	public static void main(String[] args) {
+		// just computing given values.
+		int a=7, b =5;
+		System.out.println(a&b);
+		int c=17,d=9;
+		System.out.println(c|d);
+		int e=92,f=56;
+		System.out.println(e^f);
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package FebWeek2;
+
+public class Assi1 {
+
+	public static void main(String[] args) {
+		//Finding first four num of 4N+9 which r divisible by 3.
+		int n;
+		
+		int count=4;
+		for(int i=1;i<=count;i++) {
+			n = 4*i+9;
+			if(n%3==0) {
+				
+			}
+			System.out.print(n+" ");
+			
+		}
+
+	}
+
+}

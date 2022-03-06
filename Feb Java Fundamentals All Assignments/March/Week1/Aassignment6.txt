@@ -1,0 +1,17 @@
+package MarchWweek1;
+
+public class Assig6 {
+
+	public static void main(String[] args) {
+		// swap number in array ;
+		int [] arr = {1,2,3,4,5,6};
+		arr[2] = 54;
+		arr[5] = 4532;
+		for(int e:arr) {
+			System.out.print(e+" ");
+		}
+
+
+	}
+
+}
