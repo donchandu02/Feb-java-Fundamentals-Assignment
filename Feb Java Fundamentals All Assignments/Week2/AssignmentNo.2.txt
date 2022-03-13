@@ -1,0 +1,35 @@
+package MarchWeek2;
+
+public class AssignmentNo2 {
+
+	public static void main(String[] args) {
+		// THE GIVEN MATRIX IS SPARSE OR NOT
+		int row = 5;
+		int column = 5;
+		int [][] given = {{0,0,0,0,0},
+						  {1,0,0,1,0},
+						  {0,1,0,0,1},
+						  {0,0,0,1,1},
+						  {1,0,0,0,0}
+									};
+		
+		int count = 0;
+		int length = row * column;
+		for(int i=0;i<row;i++) {
+			for(int j=0;j<column;j++) {
+				if(given[i][j]==0) {
+					count++;
+				}
+			}
+		}
+		if(count>length/2) {
+			System.out.println("Given array is Sparse.");
+			
+		}
+		else {
+			System.out.println("The given array is not Sparsre.");
+		}
+
+	}
+
+}

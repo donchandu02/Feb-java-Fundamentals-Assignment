@@ -1,0 +1,30 @@
+package MarchWeek2;
+
+public class AssignmentNo1 {
+
+	public static void main(String[] args) {
+		// PRINTING lOWER TRIANGULAR MATRIX
+		int T_D_Array [][] = {{154,234,387,409,543},
+							 {609,798,822,905,066},
+							 {127,233,354,453,987},
+							 {432,565,766,835,755},
+							 {310,333,544,774,678}
+										};
+		int row = 5;
+		int column = 5;
+		for(int i=0;i<row;i++) {
+			for(int j=0;j<column;j++) {
+				if(i>=j) {
+					System.out.print(T_D_Array[i][j]+" ");
+				}
+				
+			}
+			System.out.println();
+		}
+		
+  		}
+		 
+
+	}
+
+
